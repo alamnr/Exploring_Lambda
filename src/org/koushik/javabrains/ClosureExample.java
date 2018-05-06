@@ -6,7 +6,7 @@ public class ClosureExample {
 	{
 		int a= 10;
 		int b=20;
-		
+		// closure - when inner function has access to the variable of its enclosing function
 		doProcess(a,i->System.out.println(i+b));
 	}
 
