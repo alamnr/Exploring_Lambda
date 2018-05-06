@@ -33,7 +33,7 @@ public class Greeter {
 		
 		greet.greet(annonymousInnerClass);
 		
-		// Greet using Lamda expression - functional interface
+		// Greet using Lamda expression - functional interface - incase of Lambda each Interface type must have only one function
 		
 		Greeting  lambdaExpGreet = () -> System.out.println("Hello World!  -  greeting using lambda expression");
 		
